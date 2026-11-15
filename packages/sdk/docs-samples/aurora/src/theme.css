@@ -1,22 +1,6 @@
 /* The panel stylesheet, every class the panel uses, then Aurora's own. Plain Tailwind: no prefix. */
 @import '@pterodactyl/sdk/theme-entry.css';
 
-/* #region font */
-/* Bundled with the theme: the build copies the file beside dist/theme.css. */
-@font-face {
-    font-family: 'Aurora Sans';
-    font-style: normal;
-    font-weight: 100 900;
-    font-display: swap;
-    src: url('./fonts/aurora-sans.woff2') format('woff2');
-}
-
-@theme {
-    --font-sans: 'Aurora Sans', system-ui, sans-serif;
-    --font-header: 'Aurora Sans', system-ui, sans-serif;
-}
-/* #endregion font */
-
 /* #region tokens */
 /* Both schemes. The "accent" setting writes --aurora-accent; the colour roles derive from it. */
 :root {
